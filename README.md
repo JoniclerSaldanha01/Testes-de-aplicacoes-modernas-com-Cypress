@@ -4,4 +4,6 @@
 
 <h2> Revisão</h2>
 - [x] Arrow <br>
-- [x] Promises
+- [x] Promises <br>
+- [x] Describe
+
