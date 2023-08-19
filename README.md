@@ -3,7 +3,10 @@
 - [X] Cypress version 12.17.4
 
 <h2> Revisão</h2>
-- [x] Arrow <br>
+- [x] Arrow <br>       
 - [x] Promises <br>
-- [x] Describe
-
+- [x] Describe <br>
+- [x] Assertivas <br>
+ 
+* [Status do Projeto]() :[Em Desenvolvimento] 
+   
