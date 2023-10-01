@@ -1,6 +1,8 @@
 
   /// <reference types="cypress" />
 
+const { should } = require("chai")
+
   describe('Work with basic elements', () => {
       beforeEach(() =>{
         cy.visit('https://wcaquino.me/cypress/componentes.html')
@@ -26,7 +28,7 @@
       
     })
 
-it.only('TextFields', () =>{
+it('TextFields', () =>{
   //INSERE TEXTO NO ELEMENTO
   cy.get('#formNome').type('Cypress Test')
 
@@ -50,6 +52,21 @@ it.only('TextFields', () =>{
            .clear()
            .type('Erro{selectall}acerto', {delay:100})
            .should('have.value', 'acerto')
+})
+
+it('RadioButton', () => {
+
+// CLICA NO RADIO BUTTON 
+  cy.get('#formSexoFem')
+    .click()
+    .should('be.checked')
+
+    cy.get('#formSexoMasc')
+    .should('not.be.checked')
+
+    // VERIFICA SE HA DOIS RADIO BUTTONS
+    cy.get("[name='formSexo']").should('have.length', 2)
+
 })
 
   })

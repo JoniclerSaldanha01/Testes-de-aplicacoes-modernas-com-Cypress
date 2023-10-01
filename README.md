@@ -1,4 +1,4 @@
-# Testes de aplicações modernas com Cypress
+# Testes de aplicações modernas com Cypress / curso Udemy 
 - [X] Node js version 18.17.1
 - [X] Cypress version 12.17.4
 
@@ -8,6 +8,8 @@
 - [x] Describe <br>
 - [x] Assertivas <br>
 - [x] Campos de Texto <br>
+- [x] Radio button <br>
+- [x] Checkbox <br>
  
 * [Status do Projeto]() :[Em Desenvolvimento] 
    
