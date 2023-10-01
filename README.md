@@ -7,6 +7,7 @@
 - [x] Promises <br>
 - [x] Describe <br>
 - [x] Assertivas <br>
+- [x] Campos de Texto <br>
  
 * [Status do Projeto]() :[Em Desenvolvimento] 
    
